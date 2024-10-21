@@ -9,7 +9,7 @@ team1_time = 19006.1
 team2_time = 18015.2
 
 
-if score_1 > score_2 or score_1 == score_2 and team1_time < team2_time:
+if (score_1 > score_2) or (score_1 == score_2 and team1_time < team2_time):
     result = f'Победа команды {team1_name}!'
 elif score_2 > score_1 or score_2 == score_1 and team2_time < team1_time:
     result = f'Победа команды {team2_name}!'
